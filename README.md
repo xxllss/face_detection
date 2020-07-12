@@ -51,13 +51,11 @@ data            | 人脸在原始图片上的坐标位置~~~~
 
 #### 原始图像:
 
-![image](http://localhost:8080/image/test.jpg)
-
+![image](https://github.com/xxllss/face_detection/blob/master/src/image/test.jpeg)
 
 #### 识别到的人脸:
 
-![image](http://localhost:8080/image/test_result.jpg)
-
+![image](https://github.com/xxllss/face_detection/blob/master/src/image/test_result.jpg)
 
 # 参考
 - [A Python REST Server](https://sites.google.com/view/programtuto/web-programming/a-python-rest-server)
