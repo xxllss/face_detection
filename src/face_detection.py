@@ -44,6 +44,17 @@ class FaceDetection:
             minSize = (30,30),
             flags = cv2.CASCADE_SCALE_IMAGE
         )
+
+        """
+        # 直接在浏览器画出图片
+        for(x,y,w,h) in faces:
+           cv2.rectangle(image,(x,y),(x+w,y+h),(0,0,255),1)
+
+        cv2.imshow("测试图片",image)
+        cv2.waitKey(0)
+        cv2.destroyAllWindows()
+        """
+
         return faces
 
 

@@ -22,11 +22,21 @@ data            | 人脸在原始图片上的坐标位置~~~~
 
 #### 请求样例：
 
-    GET:  http://localhost:8080/face_detection?image=
+    http://localhost:8080/face_detection?image=https://pic3.zhimg.com/v2-35306ff8000cc2ad945bb8c04b3a5e0e_1440w.jpg?source=172ae18b
 
 #### 成功返回参数：
 
-    {"status": 0, "data": [[530, 1837, 53, 53], [80, 760, 598, 598]]}
+    {
+      "status": 0,
+      "data": [
+        [
+          53,
+          51,
+          403,
+          403
+        ]
+      ]
+    }
 
 #### 失败返回参数
 
