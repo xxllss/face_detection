@@ -6,10 +6,18 @@
     pip install numpy opencv-python
 > 注意：代码是基于python3开发
 
+##启动服务
+
+    cd /path/to/face_detection/
+    
+    # python3相关版本即可
+    python3.8 src/index.py
+
+## 请求参数'
 URL: `localhost:8080`
 URI：`/face_detection`
 method: `GET`
-## 请求参数
+
 参数             | 解释
 -----           | ---
 image           | 图片地址
@@ -18,7 +26,7 @@ image           | 图片地址
 参数             | 解释
 -----           | ---
 status          | 0`成功，`-1`失败
-data            | 人脸在原始图片上的坐标位置~~~~
+data            | 人脸在原始图片上的坐标位置
 
 #### 请求样例：
 
